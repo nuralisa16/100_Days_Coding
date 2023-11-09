@@ -1,0 +1,5 @@
+a = int(input("masukkan angka 1: "))
+b = int(input("masukkan angka 2: "))
+total = sum([i for i in range(a, b + 1)])
+output = "+".join([str(i) for i in range(a, b + 1)])
+print(f"hasil = {output} = {total}")
